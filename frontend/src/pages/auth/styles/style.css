@@ -1,8 +1,8 @@
 /* signup page */
 .signup-wrap{
-    height : auto;
+    min-height : 95vh;
     width: 70%;
-    padding-top: 20px;
+    padding-top: 30px;
     margin: auto;
     display: flex;
     flex-direction: row;

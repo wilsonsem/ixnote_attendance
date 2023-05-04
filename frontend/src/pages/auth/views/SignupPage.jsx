@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Button from './components/Button'
 import Input from './components/Input'
 import logo from './../../../assets/images/ix-logo.png'
+
 const SignupPage = () => {
+    const [category,setCategory] = useState(null)
   return (
     <div className='signup-wrap'>
         <div className='a'>
@@ -26,12 +28,21 @@ const SignupPage = () => {
                     <Input />
                     <label htmlFor=''>Phone Number:</label>
                     <Input />
-                    <label htmlFor=''>My Name:</label>
-                    <Input />
                     <label htmlFor=''>Password:</label>
                     <Input />
                     <label htmlFor=''>Confirm Password:</label>
                     <Input />
+                    <label htmlFor=''>Category</label>
+                    <div>
+                        <select id='select' onChange={(event) => setCategory(event.target.value)}>
+                            <option>choose one</option>
+                            <option value="A">IT STUDENT</option>
+                            <option value="B">REGULAR STUDENT</option>
+                        </select>
+                    </div>
+                    {
+                        category&& category === "A"?<Input placeholder='Enter institution name'/>:null
+                    }
                     <Button />
                 </form>
                 <span>Have an account already?<a href='/login'>LOGIN</a></span>

@@ -1,6 +1,6 @@
 /* signup page */
 .signup-wrap{
-    height : 95vh;
+    height : auto;
     width: 70%;
     padding-top: 20px;
     margin: auto;
@@ -39,6 +39,7 @@
     font-size: 13px;
     margin-top: 10px;
     text-align: center;
+    margin-bottom: 10px;
 }
 .form-wrap span a{
     color: #ffae00;
@@ -66,7 +67,7 @@
     margin-top: 10px;
 }
 button{
-    background-color: #73bcf3;
+    background-color: #59b1f3;
     height: 40px;
     width: 100%;
     border-radius: 5px;
@@ -83,7 +84,15 @@ Input{
     border-radius: 5px;
     margin-bottom: 8px;
     border: none;
-    /* outline: none; */
-
+    outline: none;
+}
+#select{
+    height: 40px;
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    border: none;
+    outline: none;
 }
 

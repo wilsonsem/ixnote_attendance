@@ -1,10 +1,13 @@
 import React from 'react'
 import Button from './components/Button'
 import Input from './components/Input'
+import logo from './../../../assets/images/ix-logo.png'
 const SignupPage = () => {
   return (
     <div className='signup-wrap'>
-        <div className='a'></div>
+        <div className='a'>
+            <img src={logo} alt="" srcset="" />
+        </div>
         <div className='b'>
             <div className='form-wrap'>
                 <h2>Create an account</h2>

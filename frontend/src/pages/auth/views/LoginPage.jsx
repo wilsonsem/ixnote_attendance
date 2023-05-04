@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from './components/Button'
 import Input from './components/Input'
+import logo from './../../../assets/images/ix-logo.png'
 
 const LoginPage = () => {
   return (
@@ -20,7 +21,7 @@ const LoginPage = () => {
         </div>
     </div>
     <div className='a'>
-        
+        <img src={logo} alt="" srcset="" />  
     </div>
 </div>
   )

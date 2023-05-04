@@ -9,11 +9,20 @@
 }
 .signup-wrap .a{
     width: 45%;
-    background: #6ec2e0;
+    background: #73bcf3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.signup-wrap .a img{
+    height: 300px;
+    width: 300px;
+}
+
 .signup-wrap .b{
     width: 55%;
-    background: #cce7e7;
+    background: #d4dede;
 }
 .form-wrap{
     width: 80%;
@@ -57,7 +66,7 @@
     margin-top: 10px;
 }
 button{
-    background-color: #6ec2e0;
+    background-color: #73bcf3;
     height: 40px;
     width: 100%;
     border-radius: 5px;

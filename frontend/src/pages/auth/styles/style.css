@@ -56,6 +56,15 @@
     /* width: 410px; */
     justify-content: space-between;
 }
+#select{
+    height: 40px;
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    border: none;
+    outline: none;
+}
 
 
 /* components */
@@ -86,13 +95,5 @@ Input{
     border: none;
     outline: none;
 }
-#select{
-    height: 40px;
-    width: 100%;
-    padding: 7px 10px;
-    border-radius: 5px;
-    margin-bottom: 8px;
-    border: none;
-    outline: none;
-}
+
 

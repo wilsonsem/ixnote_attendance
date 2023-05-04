@@ -17,21 +17,21 @@ const SignupPage = () => {
                     <div className='name-div'>
                         <div>
                             <label htmlFor=''>First Name:</label>
-                            <Input />
+                            <Input type='text' name='text' placeholder='email'/>
                         </div>
                         <div>
                             <label htmlFor=''>Last Name:</label>
-                            <Input />
+                            <Input type='text' name='text' placeholder='email'/>
                         </div>
                     </div>
                     <label htmlFor=''>Email:</label>
-                    <Input />
+                    <Input type='email' name='email' placeholder='email'/>
                     <label htmlFor=''>Phone Number:</label>
-                    <Input />
+                    <Input type='number' name='number' placeholder='email'/>
                     <label htmlFor=''>Password:</label>
-                    <Input />
+                    <Input type='password' name='password' placeholder='email'/>
                     <label htmlFor=''>Confirm Password:</label>
-                    <Input />
+                    <Input type='password' name='confirmpassword' placeholder='email'/>
                     <label htmlFor=''>Category</label>
                     <div>
                         <select id='select' onChange={(event) => setCategory(event.target.value)}>
@@ -43,7 +43,7 @@ const SignupPage = () => {
                     {
                         category&& category === "A"?<Input placeholder='Enter institution name'/>:null
                     }
-                    <Button />
+                    <Button btntype ='Sign Up'/>
                 </form>
                 <span>Have an account already?<a href='/login'>LOGIN</a></span>
             </div>

@@ -1,10 +1,10 @@
 import React from 'react'
 import '../../styles/style.css'
 
-const Button = () => {
+const Button = (props) => {
   return (
     <div className='btn-wrap'>
-      <button>Signup</button>
+      <button>{props.btntype}</button>
     </div>
   )
 }

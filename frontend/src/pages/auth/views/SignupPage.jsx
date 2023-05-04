@@ -17,21 +17,21 @@ const SignupPage = () => {
                     <div className='name-div'>
                         <div>
                             <label htmlFor=''>First Name:</label>
-                            <Input type='text' name='text' placeholder='email'/>
+                            <Input type='text' name='text' />
                         </div>
                         <div>
                             <label htmlFor=''>Last Name:</label>
-                            <Input type='text' name='text' placeholder='email'/>
+                            <Input type='text' name='text' />
                         </div>
                     </div>
                     <label htmlFor=''>Email:</label>
-                    <Input type='email' name='email' placeholder='email'/>
+                    <Input type='email' name='email' />
                     <label htmlFor=''>Phone Number:</label>
-                    <Input type='number' name='number' placeholder='email'/>
+                    <Input type='number' name='number' />
                     <label htmlFor=''>Password:</label>
-                    <Input type='password' name='password' placeholder='email'/>
+                    <Input type='password' name='password' />
                     <label htmlFor=''>Confirm Password:</label>
-                    <Input type='password' name='confirmpassword' placeholder='email'/>
+                    <Input type='password' name='confirmpassword' />
                     <label htmlFor=''>Category</label>
                     <div>
                         <select id='select' onChange={(event) => setCategory(event.target.value)}>

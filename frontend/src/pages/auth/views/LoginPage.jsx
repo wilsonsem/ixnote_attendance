@@ -11,9 +11,9 @@ const LoginPage = () => {
             <h2>Login</h2>
             <form id='form'>
                 <label htmlFor=''>Email:</label>
-                <Input type='email' name='email' placeholder='email'/>
+                <Input type='email' name='email'/>
                 <label htmlFor=''>Password:</label>
-                <Input type='password' name='password' placeholder='password'/>
+                <Input type='password' name='password'/>
                 <Button btntype ='Login'/>
             </form>
             <span>forgot password? <a href='/'>reset</a></span>
